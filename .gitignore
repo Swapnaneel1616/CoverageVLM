@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Dataset (large — do not push)
+RadioMapSeer/
+*.zip
+archive.zip
+
+# Generated outputs
+artifacts/
+labels/*.npy
+labels/*.npz
+labels/*.parquet
+
+# Notebooks / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

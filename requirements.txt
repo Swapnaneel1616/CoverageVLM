@@ -1,0 +1,13 @@
+numpy
+pillow
+matplotlib
+pyyaml
+torch
+torchvision
+fastapi
+uvicorn
+python-dotenv
+openai
+streamlit
+httpx
+pytest
